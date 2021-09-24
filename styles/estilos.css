@@ -14,7 +14,8 @@ ul{
 }
 
 .logo{
-    height: 80px;}
+    height: 80px;
+}
     
 .mainbutton{
     background-color: aliceblue;
@@ -26,7 +27,6 @@ ul{
     padding: 5px 10px;
     border-radius: 15px;
     font-weight: bolder;
-    
 }
 
 .button:hover {
@@ -41,8 +41,24 @@ ul{
 .secundarybutton{
     background-color: rgb(226, 228, 229);
     color: rgb(250, 246, 246);
-    }
+}
 
 .secundarybutton:hover {
     box-shadow: 1px 1px black;
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid rgb(157, 157, 228);
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
 }
