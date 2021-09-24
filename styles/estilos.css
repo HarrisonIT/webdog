@@ -11,6 +11,7 @@ ul{
 .navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo{
