@@ -13,10 +13,9 @@ ul{
     justify-content: space-around;
     }
 
-<<<<<<< HEAD
 .logo{
-    height: 80px;
-=======
+    height: 80px;}
+    
 .mainbutton{
     background-color: aliceblue;
     color: black;
@@ -32,5 +31,4 @@ ul{
     box-shadow: 1px 1px blue;
     transform: scale(1.1);
 
->>>>>>> 5-crear-boton-nuevo-post
 }
