@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    margin: 10px;
     }
 
 ul{
@@ -13,6 +13,24 @@ ul{
     justify-content: space-around;
     }
 
+<<<<<<< HEAD
 .logo{
     height: 80px;
+=======
+.mainbutton{
+    background-color: aliceblue;
+    color: black;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.mainbutton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px blue;
+    transform: scale(1.1);
+
+>>>>>>> 5-crear-boton-nuevo-post
 }
