@@ -63,3 +63,22 @@ ul{
     outline: none;
     border: 0px;
 }
+
+.contenedor-imagen {
+    width: 180px;
+    height: 360px;
+    display: flex;
+}
+
+.contenedor-imagen > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+}
+
+.bread-card {
+    margin: 20px;
+}
