@@ -68,11 +68,18 @@ ul{
     width: 180px;
     height: 360px;
     display: flex;
+    
+}
+
+.contenedor-imagen:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .contenedor-imagen > img {
     object-fit: cover;
     width: 100%;
+    border-radius: 30px; 
 }
 
 .card-container {
@@ -81,4 +88,16 @@ ul{
 
 .bread-card {
     margin: 20px;
+    background-color: rgb(154, 165, 184);
+    box-shadow: 5px 5px rgb(221, 220, 220);
+    border-radius: 30px;
+
+}
+
+.bread-title {
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
 }
