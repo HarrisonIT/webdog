@@ -1,8 +1,9 @@
-function Siberiano () {
+
+function Siberiano() {
     return (
-        <div>
-            Esta es la pagina de info del Siberiano
-        </div>
+
+           <div> Informacion sobre el Siberiano</div>
+
     )
 }
 

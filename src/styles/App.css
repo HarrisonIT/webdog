@@ -63,6 +63,20 @@ ul{
   outline: none;
   border: 0px;
 }
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.maincontainer > main {
+  height: 100%;
+}
+
+.maincontainer > Footer {
+  background-color: orange;
+  padding: 10px;
+}
 
 .contenedor-imagen {
   width: 180px;
