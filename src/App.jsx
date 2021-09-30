@@ -1,7 +1,6 @@
 import logo from './media/logo.jpg';
 import './styles/App.css';
 import bordercollie from './media/border-collie.jpg'
-import buscar from './media/buscar.png'
 import siberiano from './media/siberiano.jpg'
 
 
@@ -35,32 +34,34 @@ function App() {
           </button>
         </li>
       </ul>
-      <main></main>
-      <section></section>
+      <main>
+      <section>
       <h1>Razas de perros</h1>
       <ul className="card-container">
-        <li className="bread-card">
-          <div className="contenedor-imagen">
-            <img src={siberiano} alt="Raza Siberiano" />
-          </div>
-          <span className="bread-title">
-            Siberiano
-          </span>
-        </li>
-
-        <li className="bread-card">
-          <div className="contenedor-imagen">
-            <img src={bordercollie} alt="Raza Border Collie" />
-          </div>
-          <span className="bread-title">
-            Border Collie
-          </span>
-        </li>
+      <Card imagen={siberiano} raza="Siberiano"/>
+      <Card imagen={bordercollie} raza="Border-Collie" />"
+        
       </ul>
-      <section></section>
-      <footer></footer>
+      </section>
+      <section> </section>
+      </main>
+      <footer> </footer>
     </div>
   );
 }
 
+function Card ({raza , imagen}) {
+  return (
+    <li className="bread-card background">
+      <div className="contenedor-imagen">
+        <img src={imagen} alt= {raza} />
+      </div>
+      <span className="bread-title"> {raza}
+      </span>
+    </li>
+  )
+}
+
 export default App;
+
+
