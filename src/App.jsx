@@ -1,7 +1,8 @@
-import logo from './media/logo.jpg';
-import './styles/App.css';
-import bordercollie from './media/border-collie.jpg'
-import siberiano from './media/siberiano.jpg'
+import logo from 'media/logo.jpg';
+import 'styles/App.css';
+import bordercollie from 'media/border-collie.jpg'
+import siberiano from 'media/siberiano.jpg'
+import Cardraza from 'components/Cardraza'
 
 
 function App() {
@@ -38,8 +39,8 @@ function App() {
       <section>
       <h1>Razas de perros</h1>
       <ul className="card-container">
-      <Card imagen={siberiano} raza="Siberiano"/>
-      <Card imagen={bordercollie} raza="Border-Collie" />"
+      <Cardraza imagen={siberiano} raza="Siberiano"/>
+      <Cardraza imagen={bordercollie} raza="Border-Collie" />"
         
       </ul>
       </section>
@@ -48,18 +49,6 @@ function App() {
       <footer> </footer>
     </div>
   );
-}
-
-function Card ({raza , imagen}) {
-  return (
-    <li className="bread-card background">
-      <div className="contenedor-imagen">
-        <img src={imagen} alt= {raza} />
-      </div>
-      <span className="bread-title"> {raza}
-      </span>
-    </li>
-  )
 }
 
 export default App;
